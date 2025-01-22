@@ -1,0 +1,30 @@
+uuid: 09211992-1e59-4672-96a6-9284bd406a19
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:7c1bab45-daa5-47f6-ae33-63e885dd9551'
+  module:
+    - block_content
+    - odt_core
+  theme:
+    - olivero
+id: olivero_bannerrootb
+theme: olivero
+region: content_above
+weight: -7
+provider: null
+plugin: 'block_content:7c1bab45-daa5-47f6-ae33-63e885dd9551'
+settings:
+  id: 'block_content:7c1bab45-daa5-47f6-ae33-63e885dd9551'
+  label: 'Banner Root B'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  odt_core_menu_position:
+    id: odt_core_menu_position
+    menu_parent: 'main:menu_link_content:cb062f82-5d16-487c-8517-dd38936d1d4e'
+    negate: null

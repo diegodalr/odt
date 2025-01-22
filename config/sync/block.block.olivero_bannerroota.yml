@@ -1,0 +1,30 @@
+uuid: af8c2b2a-81b1-43b3-952d-d31bb71d4d9b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a874fec6-3461-4545-9ef5-fa536e197ebc'
+  module:
+    - block_content
+    - odt_core
+  theme:
+    - olivero
+id: olivero_bannerroota
+theme: olivero
+region: content_above
+weight: -8
+provider: null
+plugin: 'block_content:a874fec6-3461-4545-9ef5-fa536e197ebc'
+settings:
+  id: 'block_content:a874fec6-3461-4545-9ef5-fa536e197ebc'
+  label: 'Banner Root A'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  odt_core_menu_position:
+    id: odt_core_menu_position
+    menu_parent: 'main:menu_link_content:d716f829-6fca-4249-a96c-73de1e2e820d'
+    negate: null
