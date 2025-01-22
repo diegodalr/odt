@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 622df8ab-5808-448c-bdb0-7812d1204853
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: banner-B.png
+  uri:
+    -
+      value: 'public://inline-images/banner-B.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 124923
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1737586617

@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d7eb70a4-21d1-4b58-9420-494fc411470f
+  bundle: page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Root A'
+  created:
+    -
+      value: 1737586160
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  body:
+    -
+      value: '<p>Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&nbsp;</p>'
+      format: basic_html
+      summary: ''

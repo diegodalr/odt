@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: a874fec6-3461-4545-9ef5-fa536e197ebc
+  bundle: basic
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Banner Root A'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: '<img data-entity-uuid="02d7f9d0-79d9-47f4-a6b1-3de425f3ee59" data-entity-type="file" src="/sites/default/files/inline-images/banner-A.png" width="512" height="512" alt="Banner A" data-caption="Banner A">'
+      format: basic_html
+      summary: ''

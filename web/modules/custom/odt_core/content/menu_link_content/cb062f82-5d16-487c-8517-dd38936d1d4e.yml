@@ -1,0 +1,38 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: cb062f82-5d16-487c-8517-dd38936d1d4e
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    f418bf56-1b37-4710-b198-d215ae3fd5b3: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Root B'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: f418bf56-1b37-4710-b198-d215ae3fd5b3
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: -48
+  expanded:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true

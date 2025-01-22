@@ -1,0 +1,48 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 0892362f-e057-4776-9855-c7e7b267445b
+  bundle: article
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Sub 3'
+  created:
+    -
+      value: 1737586315
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  body:
+    -
+      value: '<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>'
+      format: basic_html
+      summary: ''
+  comment:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1737586330
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
