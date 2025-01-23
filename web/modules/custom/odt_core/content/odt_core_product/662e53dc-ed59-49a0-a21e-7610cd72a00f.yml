@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: odt_core_product
+  uuid: 662e53dc-ed59-49a0-a21e-7610cd72a00f
+  depends:
+    df504acf-512b-4c1d-a7be-28aafa5cd929: file
+default:
+  label:
+    -
+      value: 'Duis autem vel eum iriure dolor'
+  status:
+    -
+      value: true
+  description:
+    -
+      value: 'Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. '
+  uid:
+    -
+      target_id: 1
+  created:
+    -
+      value: 1737591168
+  image:
+    -
+      entity: df504acf-512b-4c1d-a7be-28aafa5cd929
+      alt: alternative
+      title: ''
+      width: 256
+      height: 256

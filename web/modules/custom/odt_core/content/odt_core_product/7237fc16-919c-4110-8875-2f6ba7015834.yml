@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: odt_core_product
+  uuid: 7237fc16-919c-4110-8875-2f6ba7015834
+  depends:
+    51601bda-b920-483b-a7ec-869d10e0bf88: file
+default:
+  label:
+    -
+      value: 'At vero eos'
+  status:
+    -
+      value: true
+  description:
+    -
+      value: 'At vero eos et accusam et justo duo dolores et ea rebum. '
+  uid:
+    -
+      target_id: 1
+  created:
+    -
+      value: 1737591366
+  image:
+    -
+      entity: 51601bda-b920-483b-a7ec-869d10e0bf88
+      alt: alternative
+      title: ''
+      width: 256
+      height: 256

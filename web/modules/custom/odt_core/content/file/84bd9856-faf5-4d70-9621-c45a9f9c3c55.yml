@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 84bd9856-faf5-4d70-9621-c45a9f9c3c55
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: craiyon_194852_product_sample.png
+  uri:
+    -
+      value: 'public://2025-01/craiyon_194852_product_sample.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 44669
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1737593446

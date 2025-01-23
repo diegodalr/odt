@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: odt_core_product
+  uuid: 81e1739d-98c1-4156-a772-a3948e49b8b4
+  depends:
+    84bd9856-faf5-4d70-9621-c45a9f9c3c55: file
+default:
+  label:
+    -
+      value: 'Nam liber tempor cum soluta'
+  status:
+    -
+      value: true
+  description:
+    -
+      value: 'Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. '
+  uid:
+    -
+      target_id: 1
+  created:
+    -
+      value: 1737591254
+  image:
+    -
+      entity: 84bd9856-faf5-4d70-9621-c45a9f9c3c55
+      alt: alternative
+      title: ''
+      width: 256
+      height: 256

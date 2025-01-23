@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: odt_core_product
+  uuid: 4a0465c6-9056-41fc-ae02-467d61453966
+  depends:
+    ea912159-eaa0-416c-9538-50db5aa2f8c5: file
+default:
+  label:
+    -
+      value: 'Ut wisi enim ad minim veniam'
+  status:
+    -
+      value: true
+  description:
+    -
+      value: 'Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. '
+  uid:
+    -
+      target_id: 1
+  created:
+    -
+      value: 1737591209
+  image:
+    -
+      entity: ea912159-eaa0-416c-9538-50db5aa2f8c5
+      alt: alternative
+      title: ''
+      width: 256
+      height: 256

@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: odt_core_product
+  uuid: 6ba6ba08-8aaa-4ad1-92bb-a3d08c38047d
+  depends:
+    4c3c5f43-47d6-4b71-a4c3-5aed0a20b04d: file
+default:
+  label:
+    -
+      value: 'Lorem ipsum dolor sit amet'
+  status:
+    -
+      value: true
+  description:
+    -
+      value: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. '
+  uid:
+    -
+      target_id: 1
+  created:
+    -
+      value: 1737591146
+  image:
+    -
+      entity: 4c3c5f43-47d6-4b71-a4c3-5aed0a20b04d
+      alt: alternative
+      title: ''
+      width: 512
+      height: 512

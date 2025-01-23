@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: odt_core_product
+  uuid: 65d11c17-8112-4e85-a983-8fa908bfaf38
+  depends:
+    a4ff1fd9-aaae-40dd-a8b7-218d787166f4: file
+default:
+  label:
+    -
+      value: 'Stet clita kasd gubergren'
+  status:
+    -
+      value: true
+  description:
+    -
+      value: 'Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. '
+  uid:
+    -
+      target_id: 1
+  created:
+    -
+      value: 1737591343
+  image:
+    -
+      entity: a4ff1fd9-aaae-40dd-a8b7-218d787166f4
+      alt: alternative
+      title: ''
+      width: 256
+      height: 256
