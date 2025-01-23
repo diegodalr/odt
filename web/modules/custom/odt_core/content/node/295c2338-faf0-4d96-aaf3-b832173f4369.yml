@@ -38,11 +38,3 @@ default:
       value: '<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.&nbsp;</p>'
       format: basic_html
       summary: ''
-  comment:
-    -
-      status: 2
-      cid: 0
-      last_comment_timestamp: 1737586308
-      last_comment_name: ''
-      last_comment_uid: 1
-      comment_count: 0
