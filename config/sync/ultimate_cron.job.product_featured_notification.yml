@@ -1,0 +1,30 @@
+uuid: d7976c52-acae-4548-a598-beb82837c8ee
+langcode: en
+status: true
+dependencies:
+  module:
+    - odt_core
+title: 'Product of the day notification'
+id: product_featured_notification
+weight: 0
+module: odt_core
+callback: product_featured_notification
+scheduler:
+  id: crontab
+  configuration:
+    rules:
+      - '0 2 * * *'
+    catch_up: 0
+launcher:
+  id: serial
+  configuration:
+    timeouts:
+      lock_timeout: 3600
+    launcher:
+      thread: 0
+logger:
+  id: database
+  configuration:
+    method: '3'
+    expire: 1209600
+    retain: 1000

@@ -9,6 +9,7 @@ Drupal ODT project.
 - Apache 2.4 (or Nginx)
 - PHP 8.3
 - Mysql 8.0 (or MariaDB)
+- Mailhog
 
 ## Installation
 
@@ -24,6 +25,8 @@ This Drupal project uses CM and the Minimal profile.
 ```
 # Install the project
 lando drush site:install minimal --config-dir=../config/sync --db-url=mysql://drupal11:drupal11@database/drupal11 -y
+# Get site URLs
+lando info --format=table
 # Login
 lando drush user:login --uri=https://odt.lndo.site/
 ```

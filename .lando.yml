@@ -2,3 +2,9 @@ name: odt
 recipe: drupal11
 config:
   webroot: web
+services:
+  mailhog:
+    type: mailhog
+proxy:
+  mailhog:
+    - mailhog.lndo.site

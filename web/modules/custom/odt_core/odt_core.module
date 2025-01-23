@@ -7,8 +7,12 @@ declare(strict_types=1);
  * Provides a product entity type.
  */
 
+use Drupal\Core\Entity\EntityStorageException;
 use Drupal\Core\Render\Element;
 use Drupal\user\UserInterface;
+use Drupal\webform\Entity\Webform;
+use Drupal\webform\Entity\WebformSubmission;
+use Drupal\webform\WebformInterface;
 
 /**
  * Implements hook_theme().
@@ -82,4 +86,34 @@ function odt_core_user_predelete(UserInterface $account): void {
   $storage->delete(
     $storage->loadMultiple($odt_core_product_ids)
   );
+}
+
+/**
+ * Creates product_featured_notification webform submission.
+ * @return void
+ * @throws EntityStorageException
+ */
+function product_featured_notification(): void {
+  // Todo: collect product_featured summary.
+  $webform_id = 'product_featured_notification';
+  $webform = Webform::load($webform_id);
+  if ($webform instanceof WebformInterface) {
+    $webform_submission = WebformSubmission::create([
+      'webform_id' => $webform_id,
+      'data' => [
+        'products_summary' => [
+          [
+            'product' => 'ABC',
+            'cta_clicks' => 5,
+          ],
+          [
+            'product' => 'DEF',
+            'cta_clicks' => 10,
+          ],
+        ],
+      ],
+    ]);
+    // Save the submission.
+    $webform_submission->save();
+  }
 }

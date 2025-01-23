@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - odt_core
+title: 'Product of the day notification'
+id: product_featured_notification
+weight: 0
+module: odt_core
+callback: 'product_featured_notification'
+scheduler:
+  id: simple
+launcher:
+  id: serial
+logger:
+  id: database

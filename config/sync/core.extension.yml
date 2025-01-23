@@ -38,13 +38,18 @@ module:
   path_alias: 0
   search: 0
   shortcut: 0
+  smtp: 0
   system: 0
   taxonomy: 0
   text: 0
   toolbar: 0
+  ultimate_cron: 0
   update: 0
   user: 0
   views_ui: 0
+  webform: 0
+  webform_send_multiple_emails: 0
+  webform_ui: 0
   views: 10
   minimal: 1000
 theme:
