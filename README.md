@@ -31,8 +31,16 @@ lando info --format=table
 lando drush user:login --uri=https://odt.lndo.site/
 ```
 ## Features
-- Navigation menu https://odt.lndo.site/admin/structure/menu/manage/main
-- Banners https://odt.lndo.site/admin/content/block
-- List of products https://odt.lndo.site/admin/content/product
-- Product of the day queue https://odt.lndo.site/admin/structure/entityqueue/product_featured/product_featured
-- Product of the day view block https://odt.lndo.site/admin/structure/views/view/product_featured
+- [x] Installable site from config, please follow Installation and Usage steps
+- [x] Content generation, most of the content should be generated after Usage steps
+- [x] Navigation menu https://odt.lndo.site/admin/structure/menu/manage/main
+- [x] Banners https://odt.lndo.site/admin/content/block
+- [x] List of products https://odt.lndo.site/admin/content/product
+- [x] Product of the day queue (please fill the queue) https://odt.lndo.site/admin/structure/entityqueue/product_featured/product_featured
+- [x] Product of the day view block (random) https://odt.lndo.site/admin/structure/views/view/product_featured
+- [x] Product of the day block instance https://odt.lndo.site/admin/structure/block/manage/olivero_views_block__product_featured_block_1
+- [ ] Product of the day CTA clicks statistics
+- [x] Webform used to send Product summary notification https://odt.lndo.site/admin/structure/webform/manage/product_featured_notification
+- [x] Cron ob for Product summary notification https://odt.lndo.site/admin/config/system/cron/jobs/manage/product_featured_notification
+- [x] SMTP settings https://odt.lndo.site/admin/config/system/smtp
+- [x] Email testing tool http://mailhog.lndo.site:8080/
