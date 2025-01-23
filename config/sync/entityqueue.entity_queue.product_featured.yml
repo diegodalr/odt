@@ -1,0 +1,24 @@
+uuid: 1ae3c260-cfb4-4088-9676-9ccac2fdf986
+langcode: en
+status: true
+dependencies:
+  module:
+    - odt_core
+id: product_featured
+label: 'Product of the day'
+handler: simple
+handler_configuration: {  }
+entity_settings:
+  target_type: odt_core_product
+  handler: 'default:odt_core_product'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+queue_settings:
+  min_size: 0
+  max_size: 5
+  act_as_queue: false
+  reverse: false

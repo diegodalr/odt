@@ -1,0 +1,3 @@
+administer odt_core_product:
+  title: 'Administer products'
+  restrict access: true

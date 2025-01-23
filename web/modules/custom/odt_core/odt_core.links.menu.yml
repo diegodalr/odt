@@ -1,0 +1,11 @@
+entity.odt_core_product.settings:
+  title: 'Product'
+  description: 'Configure a Product entity type.'
+  route_name:  entity.odt_core_product.settings
+  parent: system.admin_structure
+
+entity.odt_core_product.collection:
+  title: 'Products'
+  description: 'List of products.'
+  route_name: entity.odt_core_product.collection
+  parent: system.admin_content

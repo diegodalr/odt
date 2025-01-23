@@ -1,0 +1,10 @@
+entity.odt_core_product.edit_form:
+  route_name: entity.odt_core_product.edit_form
+  group: odt_core_product
+  title: 'Edit'
+
+entity.odt_core_product.delete_form:
+  route_name: entity.odt_core_product.delete_form
+  group: odt_core_product
+  title: 'Delete'
+  weight: 10

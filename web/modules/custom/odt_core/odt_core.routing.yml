@@ -1,0 +1,7 @@
+entity.odt_core_product.settings:
+  path: 'admin/structure/odt-core-product'
+  defaults:
+    _form: '\Drupal\odt_core\Form\ProductSettingsForm'
+    _title: 'Product'
+  requirements:
+    _permission: 'administer odt_core_product'

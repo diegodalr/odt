@@ -1,0 +1,5 @@
+odt_core_product.add_form:
+  title: 'Add product'
+  route_name: entity.odt_core_product.add_form
+  appears_on:
+    - entity.odt_core_product.collection

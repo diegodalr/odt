@@ -1,0 +1,44 @@
+uuid: afa654bf-9e41-4029-9a66-496371a2155c
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.medium
+  module:
+    - image
+    - odt_core
+id: odt_core_product.odt_core_product.default
+targetEntityType: odt_core_product
+bundle: odt_core_product
+mode: default
+content:
+  description:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  label:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

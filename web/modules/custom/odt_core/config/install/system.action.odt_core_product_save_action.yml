@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - odt_core
+id: odt_core_product_save_action
+label: 'Save products'
+type: odt_core_product
+plugin: entity:save_action:odt_core_product
+configuration: {  }

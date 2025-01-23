@@ -1,0 +1,29 @@
+uuid: 0ec1f019-6916-4ceb-a68f-9db822cfc806
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.product_featured
+  module:
+    - system
+    - views
+  theme:
+    - olivero
+id: olivero_views_block__product_featured_block_1
+theme: olivero
+region: content_above
+weight: -6
+provider: null
+plugin: 'views_block:product_featured-block_1'
+settings:
+  id: 'views_block:product_featured-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'
